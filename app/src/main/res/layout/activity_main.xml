@@ -28,12 +28,12 @@
             android:layout_height="wrap_content"
             android:hint="Login"
             android:textColor="@color/white"
-            android:textColorHint=""
+            android:textColorHint="@color/white"
             android:textSize="18sp"
             android:background="@drawable/round_corner"
             android:padding="18dp"
             android:inputType="text"
-            android:id="@+id/login_input_log"
+            android:id="@+id/loginInput"
             android:layout_marginTop="32dp"
             />
 
@@ -42,12 +42,12 @@
             android:layout_height="wrap_content"
             android:hint="Senha"
             android:textColor="@color/white"
-            android:textColorHint=""
+            android:textColorHint="@color/white"
             android:textSize="18sp"
             android:background="@drawable/round_corner"
             android:padding="18dp"
             android:inputType="textPassword"
-            android:id="@+id/login_input_pass"
+            android:id="@+id/senhaInput"
             android:layout_marginTop="32dp"
             />
 
@@ -59,6 +59,7 @@
             android:textColor="#33307C"
             android:backgroundTint="@color/white"
             android:padding="18dp"
+            android:id="@+id/loginBtn"
 
 
             />
@@ -82,13 +83,13 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/facebook_svgrepo_com"
-                android:layout_marginRight=""/>
+                android:layout_margin="8dp"/>
 
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/linkedin_1_svgrepo_com"
-                android:layout_marginLeft=""
+                android:layout_margin="8dp"
                 />
 
         </LinearLayout>
