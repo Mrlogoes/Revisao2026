@@ -22,7 +22,7 @@
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:src="@drawable/circled_user_svgrepo_com"/>
+            android:src="@drawable/circleduser"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,13 +82,13 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/facebook_svgrepo_com"
+                android:src="@drawable/facebook"
                 android:layout_margin="8dp"/>
 
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/linkedin_1_svgrepo_com"
+                android:src="@drawable/linkedin"
                 android:layout_margin="8dp"
                 />
 
