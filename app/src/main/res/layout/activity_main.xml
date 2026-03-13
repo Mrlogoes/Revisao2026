@@ -19,7 +19,15 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_margin="16dp"
         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Murilo Gomes Carvalho Góes"
+            android:textColor="@color/white"
+            android:paddingBottom="30dp"/>
+
         <ImageView
+            android:id="@+id/foto"
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:src="@drawable/circleduser"/>
