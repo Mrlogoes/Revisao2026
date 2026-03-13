@@ -1,4 +1,4 @@
-package com.example.revisa
+package com.example.revisao
 
 import android.content.Intent
 import android.os.Bundle
